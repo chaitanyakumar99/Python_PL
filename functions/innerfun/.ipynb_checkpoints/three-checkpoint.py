@@ -32,7 +32,16 @@
    "id": "0daa8de3-0750-45ec-802d-c6c9c5ef4722",
    "metadata": {},
    "outputs": [],
-   "source": []
+   "source": [
+    "def outer():\n",
+    "    print(\"outer function\")\n",
+    "def inner():\n",
+    "    print(\"Inner function\")\n",
+    "    return 200\n",
+    "\n",
+    "result=outer()\n",
+    "print(result)"
+   ]
   }
  ],
  "metadata": {
