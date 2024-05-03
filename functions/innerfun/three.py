@@ -28,10 +28,19 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 1,
    "id": "0daa8de3-0750-45ec-802d-c6c9c5ef4722",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "outer function\n",
+      "None\n"
+     ]
+    }
+   ],
    "source": [
     "def outer():\n",
     "    print(\"outer function\")\n",
@@ -42,6 +51,14 @@
     "result=outer()\n",
     "print(result)"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5ecbcac9-b2a2-44c8-aca4-f5f8439903b3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
