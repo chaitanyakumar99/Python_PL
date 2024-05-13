@@ -1,4 +1,5 @@
 class Account:
+    
     min_bal=500 #static variable
 
 a1=Account()
