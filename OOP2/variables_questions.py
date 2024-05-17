@@ -13,3 +13,8 @@
 
 
 #what is local variable 
+
+
+# Local variabls are that are declared inside the function.
+# Alternatively, they are said to defined within a local scope 
+
