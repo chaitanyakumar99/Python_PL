@@ -11,11 +11,15 @@ class Test():
     @staticmethod
     def m4():
        d=400
+    @staticmethod
+    def m4():
+       e=500
 
 t1=Test()
 t1.m1()
 t1.m2()
 t1.m3()
+t1.m4()
 
 print(t1.__dict__)
 print(Test.__dict__)
